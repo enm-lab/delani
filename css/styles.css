@@ -70,3 +70,23 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
+#what_we_do{
+    
+    text-align: center;
+    margin-bottom: 2%;
+}
+#icons{
+    margin-left: 12%;
+    margin-bottom: 8%;
+}
+
+h2{
+    font-size: 15px;
+}
+#dev-icon,#design-icon,#product-icon{
+    height: 80px;
+    width: auto;
+}
+#design-p,#dev-p,#product-p{
+     display: none; 
+}
