@@ -45,3 +45,28 @@
         transform: translateY(-45px);
     }
 }
+#about{
+    color: black;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+.content2-wrapper{
+    width: 100%;
+}
+.content2-wrapper img{
+    width:100%;
+}
+.service{
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    position: center;
+    color: whitesmoke;
+    text-align: center;
+    font: 1em sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
