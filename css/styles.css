@@ -18,3 +18,30 @@
     padding-bottom: 1%;
     margin-bottom: 5%;
 }
+#logo {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin-left: 45%;
+    margin-bottom: 3%;
+}
+#mouse{
+    width: 2%;
+    height: auto;
+    display: block;
+    margin-left: 48.5%;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    animation: bounce 3s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-55px);
+    }
+    60% {
+        transform: translateY(-45px);
+    }
+}
