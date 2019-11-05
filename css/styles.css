@@ -1,0 +1,20 @@
+.container-fluid{
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}.content-wrapper{
+    width: 100%;
+}
+.content-wrapper img{
+    width:100%;
+}
+.text-wrapper{
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    position: center;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 8%;
+    padding-bottom: 1%;
+    margin-bottom: 5%;
+}
