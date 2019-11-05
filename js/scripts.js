@@ -35,3 +35,11 @@ $(document).ready(function() {
     $("#work8").hover(function(){
       $(".work8").toggle('slow');
     });
+    jQuery('form#form1').submit(function (event) {
+        event.preventDefault();
+        var userName = document.getElementById('name').value;
+        alert(userName + ' Your message has been received. Thank you for reaching out.');
+        jQuery('#contact-form')[0].reset();
+  
+    })
+  });
